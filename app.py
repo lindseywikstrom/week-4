@@ -81,7 +81,7 @@ def getData():
 
 		output["features"].append(feature)
 
-	q.put('idle')
+	q.put("idle")
 
 	return json.dumps(output)
 
